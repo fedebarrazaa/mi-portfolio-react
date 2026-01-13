@@ -1,0 +1,35 @@
+.lenguajes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  padding: 16px;
+  max-width: 360px;   /* no width fijo */
+  margin: 0 auto;     /* centra el bloque */
+}
+
+.codigo {
+  background-color: #111111;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 300;
+  white-space: nowrap;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.codigo:hover {
+  transform: translateY(-4px) scale(1.02);
+}
+
+
+@media (min-width: 900px) {
+  .codigo {
+    font-size: 18px;
+  }
+  .lenguajes  {
+    max-width: 100%; 
+    flex-wrap: wrap;
+  }
+}
