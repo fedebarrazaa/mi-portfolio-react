@@ -45,11 +45,14 @@ opacity: 0;
     height: 700px;
 }
 .img {
-    width: 284px;
-    height: 357px;
-    border-radius: 1.5em;
+    width: 300px; 
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover; /*evita que no se deforma la img */
+    object-position: top; /* si quiero que se enfoque en la parte de arriba */
     padding: 10px; 
     margin: 0 auto;
+    display: block; 
 }
 .hero_text {
     margin-left: 20px;
@@ -122,7 +125,6 @@ strong {
          width: 600px;
     }
     
-   
     strong {
     background-color: #111111;
     color: #ffffff;
@@ -158,4 +160,5 @@ strong {
     .content_a {
         display: none;
     }
+    
 }
