@@ -3,7 +3,7 @@
     height: 183px;
     display: flex;
     flex-direction: column;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     border-radius: 11px;
     transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
@@ -11,14 +11,13 @@
 .box:hover {
     transform: translateY(-4px) scale(1.02);
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
-    border: 1px solid rgba(0, 0, 0, 0.144);
 }
 
 .box h1 {
     font-size: 20px;
     font-weight: 700;
     text-align: left;
-    color: #111111;
+    color: #121212;
     padding: 10px;
 }
 
@@ -26,23 +25,26 @@
     width: 340px;
     height: 72px;
     font-size: 16px;
-    font-weight: lighter;
+    font-weight: 200;
     text-align: left;
-    color: #111111;
+    color: #121212;
     padding: 10px;
 }
 
 .box a {
     width: 93px;
     height: 34px;
-    background-color: #111111;
+    background-color: rgb(253, 57, 57);
     text-align: center;
-    color: #FFFFFF;
-    border-radius: 11px;
+    color: #ffffff;
+    border-radius: 13px;
     margin: 10px;
     padding: 5px;
     cursor: pointer;
-    text-decoration: none;
+    text-decoration: none; 
+}
+.box a:hover {
+    background-color: rgb(250, 64, 64);
 }
 
 @media (min-width: 600px) {
@@ -53,21 +55,20 @@
 
 @media (min-width: 900px) {
     .box {
-        width: 400px;
+        width: 300px;
         height: 262px;
     }
     .box h1 {
         font-size: 30px;
     }
     .box p {
-        font-size: 20px;
+        font-size: 18px;
         height: 120px;
-        width: 400px;
+        width: 300px;
     }
     .box a  {
         width: 131px;
         height: 34px;
         font-size: 18px;
-        background-color: #111111;
     }
 }

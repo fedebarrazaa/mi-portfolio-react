@@ -16,21 +16,21 @@ export function Proyect() {
                 <Cajas
             title="App Pokemon" 
             subtitle="Permite explorar Pokémon, ver sus tipos y estadísticas de forma interactiva y responsive." 
-            text="Demo 🗲"
+            text="Demo 🡵"
              href="https://fedebarrazaa.github.io/app-pokemon/" //pasar el link
             />        
 
                 <Cajas
             title="App Palabra" 
             subtitle="Una herramienta interactiva para desordenar palabras y frases." 
-            text="Demo 🗲"
+            text="Demo 🡵"
              href="https://fedebarrazaa.github.io/app-desordenada/" //pasar el link
             />   
 
                 <Cajas
-            title="io" 
-            subtitle="Una herramienta interactiva para buscar informacion. En desarrollo." 
-            text=" 🗲"
+            title="Padel io" 
+            subtitle="¿Un juego? ¿una app? pronto lo sabremos. En desarrollo." 
+            text=" 🡵"
             href="#" //pasar el link
             />    
             </section>

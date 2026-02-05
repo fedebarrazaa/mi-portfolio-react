@@ -10,10 +10,10 @@ font-family: "Inter", sans-serif;
 }
 
 body {
-    background-color: #F8FAFC;
-opacity: 0;
-  transform: translateY(10px);
-  animation: fadeInUp 0.6s ease forwards;
+    background-color: #fcfcfc;
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeInUp 0.6s ease forwards;
 }
 
 @keyframes fadeInUp {
@@ -42,7 +42,7 @@ opacity: 0;
     flex-direction: column;
     padding: 10px;
     margin: 2px;
-    height: 700px;
+    height: 600px;
 }
 .img {
     width: 300px; 
@@ -53,13 +53,14 @@ opacity: 0;
     padding: 10px; 
     margin: 0 auto;
     display: block; 
+    
 }
 .hero_text {
     margin-left: 20px;
 }
 strong {
-    background-color: #111111;
-    color: #ffffff;
+    background-color: #ba58f3;
+    color: #FBFBFB;
     padding: 5px;
     font-size:28px;
 }
@@ -75,10 +76,11 @@ strong {
 
 .hero_text p {
     font-size: 15px;
-    font-weight: lighter;
+    font-weight: 300;
     text-align: center;
     font-family: "Inter", sans-serif;
     color: #111111;
+    opacity: 0.85;
     width: 350px;
 }
 
@@ -90,13 +92,13 @@ strong {
 }
 
 .iconos {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(253, 57, 57);
     margin: 15px;
     padding: 10px;
     border-radius: 20em;
     width: 30px;
     height: 30px;
-    color: #111111;
+    color: #FBFBFB;
     transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
 
@@ -126,8 +128,8 @@ strong {
     }
     
     strong {
-    background-color: #111111;
-    color: #ffffff;
+    background-color: #ba58f3;
+    color: #FBFBFB;
     padding: 5px;
     font-size:30px;
 }
