@@ -9,10 +9,9 @@
 }
 
 .codigo {
-  background-color: #eeeeee;;
+  border:1px solid #1A1A1A;
   color: #121212;
   padding: 8px 14px;
-  border-radius: 12px;
   font-size: 14px;
   font-weight: 400;
   white-space: nowrap;
@@ -21,6 +20,9 @@
 
 .codigo:hover {
   transform: translateY(-4px) scale(1.02);
+  background-color: rgb(253, 57, 57);
+  color: #F5F3EF;;
+  cursor:pointer;
 }
 
 

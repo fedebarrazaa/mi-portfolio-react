@@ -6,11 +6,11 @@ font-family: "Inter", sans-serif;
 *{
     box-sizing: border-box;
     margin: 0;
-    font-family: "Inter", sans-serif;
+    font-family: "Tomorrow", sans-serif;
 }
 
 body {
-    background-color: #fcfcfc;
+    background-color: #F5F3EF;
     opacity: 0;
     transform: translateY(10px);
     animation: fadeInUp 0.6s ease forwards;
@@ -59,9 +59,9 @@ body {
     margin-left: 20px;
 }
 strong {
-    background-color: #ba58f3;
-    color: #FBFBFB;
-    padding: 5px;
+    background-color:  rgb(253, 57, 57);
+    color: #F5F3EF;
+    padding: 6px;
     font-size:28px;
 }
 .hero_text h1 {
@@ -70,35 +70,32 @@ strong {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-    font-family: "Inter", sans-serif;
-    color: #111111;
+    color: #1A1A1A;
 }
 
 .hero_text p {
     font-size: 15px;
     font-weight: 300;
     text-align: center;
-    font-family: "Inter", sans-serif;
-    color: #111111;
+    color: #1A1A1A;
     opacity: 0.85;
     width: 350px;
 }
 
 .content_a {
-    color: #111111;
+    color: #1A1A1A;
     font-size: 40px;
     text-align: center;
     margin-top: 40px;
 }
 
 .iconos {
-    background-color: rgb(253, 57, 57);
     margin: 15px;
     padding: 10px;
     border-radius: 20em;
-    width: 30px;
-    height: 30px;
-    color: #FBFBFB;
+    width: 40px;
+    height: 40px;
+    color: #1A1A1A;
     transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
 
@@ -128,7 +125,6 @@ strong {
     }
     
     strong {
-    background-color: #ba58f3;
     color: #FBFBFB;
     padding: 5px;
     font-size:30px;

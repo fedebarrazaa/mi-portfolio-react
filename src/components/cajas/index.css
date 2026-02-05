@@ -3,8 +3,7 @@
     height: 183px;
     display: flex;
     flex-direction: column;
-    background-color: #ffffff;
-    border-radius: 11px;
+    border:1px solid #1A1A1A;
     transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
 
@@ -31,20 +30,21 @@
     padding: 10px;
 }
 
+
 .box a {
     width: 93px;
     height: 34px;
     background-color: rgb(253, 57, 57);
     text-align: center;
     color: #ffffff;
-    border-radius: 13px;
     margin: 10px;
     padding: 5px;
     cursor: pointer;
     text-decoration: none; 
 }
 .box a:hover {
-    background-color: rgb(250, 64, 64);
+    background-color: rgb(252, 74, 74);
+    cursor: pointer;
 }
 
 @media (min-width: 600px) {
