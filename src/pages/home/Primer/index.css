@@ -53,8 +53,14 @@ body {
     padding: 10px; 
     margin: 0 auto;
     display: block; 
-    
+    filter: drop-shadow(0 4px 10px rgba(253, 57, 57, 0.22));
+
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
 }
+.img:hover {
+    transform: translateY(-6px) scale(1.02);
+}
+
 .hero_text {
     margin-left: 20px;
 }
@@ -77,7 +83,7 @@ strong {
     font-size: 15px;
     font-weight: 300;
     text-align: center;
-    color: #1A1A1A;
+    color: rgb(48, 48, 48);
     opacity: 0.85;
     width: 350px;
 }
@@ -92,15 +98,15 @@ strong {
 .iconos {
     margin: 15px;
     padding: 10px;
-    border-radius: 20em;
     width: 40px;
     height: 40px;
-    color: #1A1A1A;
+    color: rgb(48, 48, 48);
+    background-color: transparent;
     transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
 
 .iconos:hover {
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    color: #1A1A1A;
     transform: translateY(-4px) scale(1.02);
 }
 
@@ -157,6 +163,10 @@ strong {
     }
     .content_a {
         display: none;
+    }
+    .img {
+    width: 340px; 
+    height: 340px;
     }
     
 }

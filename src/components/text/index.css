@@ -14,16 +14,15 @@ font-family: "Inter", sans-serif;
 }
 
 .section_dos p {
-    color: #121212;
+    color:  rgb(253, 57, 57);
     text-align: left;
     font-size: 16px;
-    font-family: "Inter", sans-serif;
+    font-family: "Tomorrow", sans-serif;
     font-weight: 400;
-    text-align: center;
-    width: 40px;
+    text-align: left;
+    width: 200px;
     height: 40px;
-    padding: 10px;
-    border-radius: 30px;
+    padding: 10px;    
 }
 
 .section_dos h3 {

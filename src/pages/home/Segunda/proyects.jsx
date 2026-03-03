@@ -8,7 +8,7 @@ export function Proyect() {
             <section className="projects__section"> 
                 <header className="projects__header">
                 <Textos 
-            text="01" 
+            text="[ Proyectos ]" 
             subtitle="Aquí tienes una muestra de mi trabajo: código sólido aplicado a ideas creativas"/>
             </header>
 
@@ -39,7 +39,7 @@ export function Proyect() {
             <section className="skills">
                 <header className="skills__header">
                 <Textos 
-            text="02" 
+            text="[ Skills ]" 
             subtitle="Estas son las herramientas y lenguajes que utilizo para transformar ideas en experiencias digitales funcionales y escalables."/>
             </header>
             <section className="skills__list">   

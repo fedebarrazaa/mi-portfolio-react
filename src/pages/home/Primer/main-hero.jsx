@@ -1,6 +1,6 @@
 import { Hero } from './hero' //importo la function para poder usarla aca
 import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons' //importacion de los iconos
-import fotopefil from "../../../assets/perfil.jpg" //importo la foto desde la carpeta assets
+import fotopefil from "../../../assets/perfil-nueva.png" //importo la foto desde la carpeta assets
 import './index.css'
 
 export function PrimeraParte() {
@@ -13,7 +13,7 @@ export function PrimeraParte() {
         icon={[
         { icon: faGithub, link: "https://github.com/fedebarrazaa" },
         { icon: faLinkedin, link: "https://www.linkedin.com/in/federico-barraza-4735571a4/" },
-        { icon: faInstagram, link: "https://www.instagram.com/fedebarraza__/" },
+        { /* icon: faInstagram, link: "https://www.instagram.com/fedebarraza__/" */},
         ]}
         />
         </>
