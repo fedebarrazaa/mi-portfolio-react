@@ -10,7 +10,6 @@ font-family: "Inter", sans-serif;
 }
 
 body {
-    background-color: #F5F3EF;
     opacity: 0;
     transform: translateY(10px);
     animation: fadeInUp 0.6s ease forwards;
