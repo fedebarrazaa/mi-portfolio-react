@@ -1,14 +1,4 @@
-# 😎 Portfolio 
-Portafolio personal con mis proyectos y muchas mas informacion.  
-
-## 🛠 Tecnologías
-▪️ **React**
-▪️ **TypeScript**
-▪️ **CSS**
-
-## 💻 Features
-▪️Login
-▪️Responsive
+Este es mi anterior portfolio, pero sigue activo 
 
 ## Demo
 link: (https://fedebarrazaa.github.io/federico-portfolio/)
